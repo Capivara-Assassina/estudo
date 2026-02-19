@@ -71,7 +71,30 @@
                 Email: <a href="mailto:rafaelinaciorsl@gmail.com">rafaelinaciorsl@gmail.com</a> <br>
                 Telefone: <a href="99999">trim trim</a> <br>
             </address>
+            
+        <form action="">
 
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="assunto">Assunto:</label>
+            <select name="assunto" id="assunto">
+                <option value="orcamento">Orçamento</option>
+                <option value="duvida">Dúvida</option>
+                <option value="outro">Outro</option>
+            </select><br>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+            <input type="checkbox" id="mensagem" name="inscricao"> 
+            <label for="inscricao">Deseja receber minha newsletter? Fique pro dentro</label>
+
+            <input type="submit" value="Enviar mensagem">
+        </form>
         </section>
 
     </footer>
